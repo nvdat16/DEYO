@@ -224,7 +224,7 @@ class RTDETRDecoder(Detect):
     def __init__(
         self,
         nc=80,
-        ch=(512, 1024, 2048),
+        ch=(64, 128, 256),
         hd=64,  # hidden dim
         nq=100,  # num queries
         ndp=4,  # num decoder points
